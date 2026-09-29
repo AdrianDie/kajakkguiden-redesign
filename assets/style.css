@@ -7,9 +7,9 @@
   --white:#fff;
   --grey-light:#efefef;
   --grey:#c6c6c6;
-  --green:#f1c27d;
-  --blue:#e07a4f;
-  --blue-dark:#16324a;
+  --green:#d8cfc0;
+  --blue:#7fa3a1;
+  --blue-dark:#1f3d44;
   --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
   --sans:"Schibsted Grotesk",Helvetica,Arial,sans-serif;
   --gap:16px;
@@ -279,10 +279,11 @@ dialog.lb .lb-cap{position:absolute;left:16px;right:120px;top:20px;color:var(--w
 .cta{border-top:1px solid var(--grey);padding-top:clamp(32px,5vw,64px)}
 
 /* footer */
-.site-footer{position:relative;color:var(--white);padding-top:clamp(120px,22vw,300px);padding-bottom:32px;overflow:hidden;margin-top:calc(var(--sec)*.5)}
-.fl{position:absolute;inset:0;transform-origin:bottom;will-change:transform}
+.site-footer{position:relative;color:var(--white);margin-top:calc(var(--sec)*.5);background:var(--blue-dark)}
+.fbands{position:relative;height:clamp(70px,9vw,150px);overflow:hidden;background:var(--white)}
+.fl{position:absolute;left:0;right:0;top:0;bottom:0;will-change:transform}
 .fl svg{width:100%;height:100%;max-width:none;display:block}
-.fl-1{margin-top:-48px}.fl-2{margin-top:-32px}
+.ft-body{background:var(--blue-dark);padding:clamp(24px,4vw,56px) 0 32px}
 .fl-1 polygon{fill:var(--green)}.fl-2 polygon{fill:var(--blue)}.fl-3 polygon{fill:var(--blue-dark)}
 .ft-in{position:relative;z-index:2}
 .ft-cols{display:grid;gap:36px var(--gap);grid-template-columns:1fr}

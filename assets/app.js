@@ -35,7 +35,7 @@
       var vh = window.innerHeight || 800;
       var p = Math.min(1, Math.max(0, (vh - r.top) / (r.height + vh * 0.3)));
       for (var i = 0; i < layers.length; i++) {
-        var depth = (i + 1) * 14;
+        var depth = (i + 1) * 5;
         layers[i].style.transform = 'translate3d(0,' + ((1 - p) * depth).toFixed(1) + 'px,0)';
       }
     };
